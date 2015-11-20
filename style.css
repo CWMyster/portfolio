@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #333333;
+    border-bottom: 5px solid #333444; 
+    color: #888888
+}
+.navbar li { display: inline-block; }
+footer { position: relative; }
+body { padding-top: 120px; background-color: #333333; 
+        color: #fff955;
+}
+header { height: 50px; }
+footer {
+   position: fixed;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color: #ffffff;
+   color: #111111;
+   text-align: center;
+   padding: 15px;
+   border-color: #111111;
+}
+    
