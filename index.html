@@ -16,12 +16,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body style="padding-top: 40px" data-spy="scroll" data-target="#navbar" data-offset="50px">
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,55 +31,56 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Chris Myster</a></div>
-            <div class="navbar-collapse collapse" id="navbar">
+                <a href="index.html" class="navbar-brand">Chris Myster</a> 
+            </div>
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
+                    
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#mybackground">My Background</a></li>
-                    <li><a href="http://cwmyster.github.io/ptCaseStudy" target="_blank">Pacific Trails</a></li>
-                    <li><a href="https://soundcloud.com/theinfiniteaxis" target="_blank">Soundcloud</a></li>
+                    <li><a href="http://cwmyster.github.io/ptCaseStudy" target="_blank">Pacific Trails<br>Case Study</a></li>
+                    <li><a href="https://soundcloud.com/theinfiniteaxis" target="_blank">My Soundcloud</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    <div id="wrapper">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <section class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="well">
-                    <section id="aboutme">
-                        <h4><span class="glyphicon glyphicon-user"></span> About me </h4>
-                        <p>I have been been involved with technology all my life. The Commodore 64 was my first foray into programming as a kid and I think it has helped throughout my life to look for logical solutions to sometimes complex problems. More recently, I try to keep up with the latest technology milestones and try to maintain a larger approach as to where technology is headed. In my spare time, I like to make music and design sound modularly using the German software, Native Instruments Reaktor. I'm also very familiar with a wide variety of digital audio workstations used today. By using many different interfaces and software suites, I think it has honed my skills to approaching solutions efficiently.</p>
-                    </section>
-                </div>
-            </div>
-            <figure class="col-xs-6 col-sm-6 col-md-4"><img src="images/daw.jpg" alt="daw" class="img-responsive center-block" height="150" width="150">
-                <figcaption>I am a advanced user of many modern "DAWs"</figcaption>
-            </figure>
+                    <h4 id="aboutme">
+                        <span class="glyphicon glyphicon-user"></span> About me</h4>
+                        <p>I have been been involved with technology all my life. The Commodore 64 was my first foray into very basic programming and I think it has helped throughout my life to look for logical solutions to sometimes complex problems. More recently, I try to keep up with the latest technology milestones and try to maintain a larger approach as to where technology is headed. In my spare time, I like to make music and design sound modularly using the German software, Native Instruments Reaktor. I'm also very familiar with a wide variety of digital audio workstations used today. By using many different interfaces and software suites, I think it has honed my skills to approaching solutions efficiently.</p>
+                    </div>
+                </section>
+                
+            
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6"><figure class="center-block"><img src="images/daw.jpg" alt="daw" class="img-responsive img-rounded center-block">
+                <figcaption>I am an advanced user of many modern digital audio workstations</figcaption>
+                </figure></div>
 
-            <figure class="col-xs-6 col-sm-6 col-md-6"><img src="images/mypic.jpg" alt="mypicture" class="img-responsive center-block" height="150" width="150"></figure>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6"><figure class="center-block"><img src="images/mypic.jpg" alt="mypicture" class="img-responsive img-rounded"></figure></div>
 
-            <div class="row"></div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div class="well">
-                    <section id="mybackground">
-                        <h4><span class="glyphicon glyphicon-road"></span> Background </h4>
-                        <p>I was born and raised in Prior Lake, Minnesota. I attended Hennepin Technical College for Audio Recording, then St. Cloud State university where I pursued a degree in political science. I have traveled as much as possible and would love to travel even more, especially professionally. Recently I enrolled at Hennepin Tech again to learn more about the technology we all value.</p>
-                    </section>
-                </div>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6">
-            <iframe width="250" height="175" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212023727&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <section class="well">   
+                    <h4 id="mybackground">
+                        <span class="glyphicon glyphicon-road"></span> Background</h4>
+                        <p>I was born and raised in Prior Lake, Minnesota. I attended Hennepin Technical College for Audio Recording, then St. Cloud State university where I pursued a degree in political science. I have traveled as much as possible and would love to travel even more, especially professionally. I still have a ways to go about learning modern programming. I have recently enrolled at Hennepin Tech again to pursue knowledge in that field and am eager to learn more about the technology we all value.</p>
+                   
+                </section> </div>
+           
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212023727&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
         </div>
         </div>
-
-
-        
+        </div>
+        </div>
     </div>
-
-
-
-
-    <div class="panel-footer">Copyright &copy;2015 <a href="mailto:infiniteaxis@gmail.com">infiniteaxis@gmail.com</a></div>
+    
+<div class="panel-footer"><a href="mailto:infiniteaxis@gmail.com">infiniteaxis@gmail.com</a>Copyright &copy;2015 </div>
 
 
 
