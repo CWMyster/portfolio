@@ -13,6 +13,7 @@
 .navbar-default .navbar-brand > .active > a :hover { 
     color: #cb863e; 
 } 
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover { color: #fff444 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
@@ -31,6 +32,9 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #36458a;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { 
+    background-color: #cb863e
+}
 
 #wrapper { 
     margin-left: auto; 
@@ -45,13 +49,13 @@ body {
     color: #e9ffff;
     min-height: 400px;
     margin-bottom: 85px;
-    padding-top: 50px; 
+    margin-top: 50px; 
     }
 figure { 
     max-width:  200px; 
     position: relative;
     border-radius: 5px; 
-    background-color: #012835; 
+    background-color: #040e3a; 
     padding: 25px; 
     border-style: solid; 
     border-width: 1px;
@@ -77,19 +81,18 @@ iframe { display: block;
 }
 img {  position: relative; }
 .well { 
-    background-color: #012835; 
+    background-color: #040e3a; 
     padding: 20px 20px 20px 20px; 
     margin-top: 30px; 
     margin-bottom: 30px;
     line-height: 200% }
-#aboutme { padding-top: 60px;
-        margin-top: -40px }
-#mybackground { padding-top: 60px;
-        margin-top: -40px }
+#aboutme { padding-top: 80px;
+        margin-top: -50px }
+#mybackground { padding-top: 80px;
+        margin-top: -50px }
 
 
 @media only screen and (max-width: 767px) {
-    iframe { display: none }
     figcaption { display: none } 
 }
 @media only screen and (max-width: 992px) {
